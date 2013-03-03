@@ -27,6 +27,7 @@ end
 
 gem 'jquery-rails'
 
+gem "spork", :git => "git://github.com/chrismdp/spork.git"
 group :development do
   gem 'rspec-rails', '2.13.0'
 end
