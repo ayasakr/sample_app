@@ -27,13 +27,14 @@ end
 
 gem 'jquery-rails'
 
-gem "spork", :git => "git://github.com/chrismdp/spork.git"
+#gem "spork", :git => "git://github.com/chrismdp/spork.git"
 group :development do
   gem 'rspec-rails', '2.13.0'
 end
-
+#gem 'rake', '10.0.3'
 group :test do
   gem 'rspec', '2.13.0'
+  gem 'webrat'
 end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
