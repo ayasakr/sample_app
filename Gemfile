@@ -26,7 +26,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
+gem "autotest-notification", "~> 2.3.4"
+gem "autotest-growl", "~> 0.2.16"
 #gem "spork", :git => "git://github.com/chrismdp/spork.git"
 group :development do
   gem 'rspec-rails', '2.13.0'
