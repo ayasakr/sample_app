@@ -31,6 +31,7 @@ gem "autotest-growl", "~> 0.2.16"
 #gem "spork", :git => "git://github.com/chrismdp/spork.git"
 group :development do
   gem 'rspec-rails', '2.13.0'
+  gem 'guard-spork'
 end
 #gem 'rake', '10.0.3'
 group :test do

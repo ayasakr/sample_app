@@ -1,13 +1,6 @@
 SampleApp::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
-  # Don't fallback to assets pipeline
-  config.assets.compile = false
 
-  # Do not compress assets
-  config.assets.compress = false
-
-  # Generate digests for assets URLs
-  config.assets.digest = false
   # Code is not reloaded between requests
   config.cache_classes = true
 
